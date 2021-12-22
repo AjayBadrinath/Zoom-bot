@@ -6,7 +6,7 @@ import pyautogui as pi
 import gmailscrapper
 def execzoom():
         #i have included comments for the legiblity of my code
-        l=["11:29:00","12:37:00"]#pls change accordingly the time
+        l=[]#pls enter the time as string list in HH:MM:SS format change accordingly the time
         #l=["04:28:00","04:29:00","04:30:00"]#test data
         file=open("class1.txt")
         x=file.readlines()#list var storing the meeting id and password
@@ -14,7 +14,7 @@ def execzoom():
         l3=[]#meetingid
         l4=[]#pwd
         linectr=0
-        if datetime.datetime.now().strftime("%H:%M:%S")=="20:50:00":
+        if datetime.datetime.now().strftime("%H:%M:%S")=="20:50:00":# Checks your mail at 8 :50 pm YOu can change it if you want
                 gmailscrapper.gmailscrapper()
                 gmailscrapper.edit()
                 gmailscrapper.output()
