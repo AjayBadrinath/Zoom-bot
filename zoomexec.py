@@ -29,7 +29,7 @@ def execute():
         pi.doubleClick()
         pi.hotkey('ctrl', 'a')
         time.sleep(2)
-        pi.typewrite("Ajay.B")#fill the name if not filled
+        pi.typewrite("Admin")#fill the name if not filled
         time.sleep(2)
         pi.click(530,450)
         time.sleep(2)
