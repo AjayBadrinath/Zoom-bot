@@ -1,0 +1,5 @@
+# Required libraries  to run the file 
+imaplib 
+pyautogui
+pickle 
+pywinauto
